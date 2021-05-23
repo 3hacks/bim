@@ -15,6 +15,11 @@ if [ "$1" = "save" ]; then
   exit
 fi
 
+if [ "$1" = "rm" ]; then
+  bim-rm ${@:2}
+  exit
+fi
+
 if [ "$1" = "clone" ]; then
   bim-clone ${@:2}
   exit

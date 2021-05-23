@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd `dirname $0`/../bins
+rm -rf $1
