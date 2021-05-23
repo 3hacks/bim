@@ -17,6 +17,16 @@ echo "export PATH=\$PATH:/path/to/bim/bin" >> ~/.bashrc
 bim new <BIN DIR NAME>
 ```
 
+**clone bin directory from github**
+```bash
+bim clone <BIN DIR NAME>
+```
+
+**pull from github**
+```bash
+bim pull
+```
+
 **edit shell script in the bin directory**
 ```bash
 bim edit <BIN DIR NAME> <SHELLSCRIPT NAME>
