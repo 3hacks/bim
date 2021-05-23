@@ -1,0 +1,4 @@
+github-name
+bins/*
+!bins/.keep
+

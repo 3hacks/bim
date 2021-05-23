@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd `dirname $0`/..
+github=`cat github-name`
+
+if [ "$github" = "" ]; then
+  echo "github account:"
+  read github
+  echo $github > github-name
+fi
+cd bins
+mkdir $1
+cd $1
+git init
+git remote add origin git@github.com:$github/$1.git
+
