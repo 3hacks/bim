@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd `dirname $0`/..
+bins=($(ls bins))
+for bin in "${bins[@]}"
+do
+  echo "export PATH=\$PATH:`pwd`/bins/$bin"
+done

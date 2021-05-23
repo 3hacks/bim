@@ -1,3 +1,21 @@
 #!/bin/bash
 
+if [ "$1" = "new" ]; then
+  bim-new ${@:2}
+  exit
+fi
 
+if [ "$1" = "edit" ]; then
+  bim-edit ${@:2}
+  exit
+fi
+
+if [ "$1" = "save" ]; then
+  bim-save ${@:2}
+  exit
+fi
+
+if [ "$1" = "path" ]; then
+  bim-paths ${@:2}
+  exit
+fi
