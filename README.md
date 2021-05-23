@@ -37,5 +37,10 @@ bim edit <BIN DIR NAME> <SHELLSCRIPT NAME>
 bim save
 ```
 
+**remove bin directory**
+```bash
+bim rm <BIN DIR NAME>
+```
+
 ### LICENSE
 MIT LICENSE
