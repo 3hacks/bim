@@ -15,6 +15,16 @@ if [ "$1" = "save" ]; then
   exit
 fi
 
+if [ "$1" = "clone" ]; then
+  bim-clone ${@:2}
+  exit
+fi
+
+if [ "$1" = "pull" ]; then
+  bim-pull ${@:2}
+  exit
+fi
+
 if [ "$1" = "path" ]; then
   bim-paths ${@:2}
   exit

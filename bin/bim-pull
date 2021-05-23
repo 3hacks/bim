@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd `dirname $0`/../bins
+bins=($(ls -d */ | grep -v bin))
+for bin in "${bins[@]}"
+do
+  cd $bin
+  git pull origin master
+  cd ..
+done

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd `dirname $0`/..
+github=`cat github-name`
+
+if [ "$github" = "" ]; then
+  echo "github account:"
+  read github
+  echo $github > github-name
+fi
+
+cd bins
+git clone git@github.com:$github/$1.git
