@@ -42,5 +42,10 @@ bim save
 bim rm <BIN DIR NAME>
 ```
 
+**show paths**
+```bash
+bim path
+```
+
 ### LICENSE
 MIT LICENSE
