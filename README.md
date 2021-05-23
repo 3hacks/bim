@@ -1,6 +1,10 @@
 # bim
 bim is a bin directory manager.
 
+### Requirements
+* Ubuntu
+* git
+
 ### Usage
 **install**
 ```bash
