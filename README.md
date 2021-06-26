@@ -22,7 +22,7 @@ bim new <BIN DIR NAME>
 bim clone <BIN DIR NAME>
 ```
 
-**pull from github**
+**pull all bin directories from github**
 ```bash
 bim pull
 ```
@@ -32,7 +32,7 @@ bim pull
 bim edit <BIN DIR NAME> <SHELLSCRIPT NAME>
 ```
 
-**save all bin directory**
+**save all bin directories**
 ```bash
 bim save
 ```
