@@ -10,6 +10,8 @@ bim is a bin directory manager.
 ```bash
 git clone https://github.com/3hacks/bim.git
 echo "export PATH=\$PATH:/path/to/bim/bin" >> ~/.bashrc
+echo "bim-paths > \$HOME/.bim" >> ~/.bashrc
+echo "source \$HOME/.bim" >> ~/.bashrc
 ```
 
 **create new bin directory**
